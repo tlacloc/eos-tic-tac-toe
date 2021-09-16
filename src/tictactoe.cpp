@@ -11,6 +11,6 @@ CONTRACT tictactoe : public contract {
     ACTION welcome(name host, name challenger) {
 
       require_auth( get_self() );
-      print( "Welcome, challengers ", host.value, " and ",challenger.value );
+      print( "Welcome, challengers ", host, " and ",challenger );
     }
 };
