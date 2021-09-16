@@ -1,0 +1,1 @@
+cleos push action tictactoe welcome '['eosio', 'owner']' -p tictactoe@active

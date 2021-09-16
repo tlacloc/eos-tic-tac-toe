@@ -1,0 +1,1 @@
+cleos set contract tictactoe ./compiled/tictactoe -p tictactoe@active
